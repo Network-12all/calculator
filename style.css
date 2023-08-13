@@ -1,0 +1,43 @@
+     *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+     
+     .body{
+       width: 100%;
+       height: 100vh;
+       
+     }
+     
+     .container{
+       margin-top: 40px;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+     }
+     
+     .container .calculator{
+       height: 350px;
+       
+       background: #ff9800;
+       border-radius: 5px;
+       overflow: hidden;
+       
+     }
+     
+     .calculator #inputBox{
+       padding: 18px 2px 18px 5px;
+       font-size: 20px;
+       color: #333;
+     }
+     
+     div .button{
+       font-size: 20px;
+      /* padding: 11.5px;*/
+      width: 50px;
+      margin-left: 2;
+      height: 50px;
+      margin: 3px 3px;
+      border-radius: 5px;
+     }
